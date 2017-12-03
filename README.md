@@ -15,4 +15,4 @@ Nach es un rapero español y poeta. Es mi mayor ídolo musical, una persona que 
 
 Página oficial del cantante: http://www.nach.es/
 
-Mira mi fan-page online: (subiendo sitio…)
+Mira mi fan-page online: http://www.nach-fanpage.com
