@@ -25,13 +25,13 @@ include("menusuperior.html");
     <div class="divisor02">
     <table>
     	<tr>
-    		<td><label class="">Ultimo videoclip lanzado:</label><label class="oro align">NACH - RAP ESPAÑOL</label></td>
+    		<td><label class="">Ultimo videoclip lanzado:</label><label class="oro align">NACH - URBANOLOGÍA</label></td>
     	</tr>
     	<tr>
     		<td><iframe class="mover video-size" width="560" height="270" src="https://www.youtube.com/embed/LsWAVTQCaDs" frameborder="0" allowfullscreen></iframe></td>
     	</tr>
     	<tr>
-    		<td><label class="">Album reciente:</label><label class="oro align">A TRAVES DE MÍ</label></td>
+    		<td><label class="">Album reciente:</label><label class="oro align">CAZADORES DE INSTANTES</label></td>
     	</tr>
     	    	<tr>
     		<td><img src="img/cazadores_de_instantes.png" height="135" width="560" class="mover-img img-size"></td>
