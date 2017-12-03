@@ -1,0 +1,522 @@
+*{
+	/* CSS para resolucion 1440x900 */
+    font-family: verdana;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body {
+	background-image: url("../img/background01.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 100%;
+}
+.menu {
+   display: inline;
+   word-spacing: 15px;
+}
+li {
+	list-style: none;
+}
+a {
+	font-size: 20px;
+	text-decoration: none;
+}
+a:hover {
+	color: #03F7FB;
+	transition-duration: 1s;
+}
+#divisor {
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 0px; 
+margin-right: auto; 
+margin-bottom: 0px;
+margin-left: auto; 
+width: 800px;
+
+}
+.divisor02 {
+		margin-top: 0px; 
+margin-right: auto; 
+margin-bottom: 0px;
+margin-left: auto; 
+/* El width correspondera segun la pagina */
+}
+.foto {
+	opacity: 0.8;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.activado {
+	color: #03F7FB;
+}
+.separador01 {
+	background-color: #03F7FB;
+	height: 2px;
+	display: block;
+    clear: both;
+}
+label {
+	font-size: 20px;
+	color: #FFB700;
+
+}
+.labelredes-size {
+		font-size: 30px;
+		margin-left: 20px;
+}
+.cambio-twitter:hover {
+   background-image: url("../img/logo_twitter_on.png");
+   background-repeat: no-repeat;
+}
+.cambio-youtube:hover {
+   background-image: url("../img/logo_youtube_on.png");
+   background-repeat: no-repeat;
+}
+.cambio-facebook:hover {
+   background-image: url("../img/logo_facebook_on.png");
+   background-repeat: no-repeat;
+}
+.cambia:hover {
+	opacity: 0;
+}
+@media all and (min-width: 1700px) {
+a {
+	font-size: 40px;
+	text-decoration: none;
+}
+#divisor {
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 0px; 
+margin-right: auto; 
+margin-bottom: 0px;
+margin-left: auto; 
+width: 1200px;
+float: center;
+}
+.divisor02 {
+		margin-top: 0px; 
+margin-right: auto; 
+margin-bottom: 0px;
+margin-left: auto; 
+}
+.foto {
+	opacity: 0.8;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.foto-width {
+	width: 800px;
+	height: 250px;
+}
+label {
+	font-size: 25px;
+	color: #FFB700;
+
+}
+.labelredes-size {
+		font-size: 40px;
+		margin-left: 40px;
+}
+.expand-redes {
+	width: 1800px;
+}
+}
+@media all and (max-width: 975px) {
+#divisor {
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 0px; 
+margin-right: auto; 
+margin-bottom: 0px;
+margin-left: auto; 
+width: 600px;
+}
+
+.foto {
+	opacity: 0.8;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.foto-width {
+	width: 250px;
+}
+	label {
+		font-size: 13px;
+	}
+	a {
+		font-size: 15px;
+	}
+	.labelredes-size {
+		font-size: 22px;
+		margin-left: 20px;
+	}
+body {
+	background-attachment: fixed;
+}
+}
+@media all and (max-width: 640px) {
+#divisor {
+background: rgba(0, 0, 0, 0.5);
+margin-top: 0px; 
+margin-right: auto; 
+margin-bottom: 0px;
+margin-left: auto; 
+width: 450px;
+}
+.foto {
+	opacity: 0.8;
+	width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	background-attachment: fixed;
+}
+}
+@media all and (max-width: 420px) {
+#divisor {
+background: rgba(0, 0, 0, 0.5);
+margin-top: 0px; 
+margin-right: auto; 
+margin-bottom: 0px;
+margin-left: auto; 
+width: 350px;
+}
+.foto {
+	opacity: 0.8;
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+label {
+		font-size: 10px;
+	}
+a {
+		font-size: 11px;
+	}
+.labelredes-size {
+	font-size: 15px;
+	margin-left: 10px;
+}
+.foto-width {
+	opacity: 0.8;
+	width: 300px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	background-attachment: fixed;
+}
+}
+@media all and (max-width: 320px) {
+#divisor {
+background: rgba(0, 0, 0, 0.5);
+margin-top: 0px; 
+margin-right: auto; 
+margin-bottom: 0px;
+margin-left: auto; 
+width: 250px;
+}
+.foto {
+	opacity: 0.8;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+label {
+		font-size: 8px;
+	}
+a {
+		font-size: 7px;
+	}
+.labelredes-size {
+	font-size: 10px;
+	margin-left: 5px;
+}
+.foto-width {
+	opacity: 0.8;
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	background-attachment: fixed;
+}
+}
+@media all and (max-width: 240px) {
+#divisor {
+background: rgba(0, 0, 0, 0.5);
+margin-top: 0px; 
+margin-right: auto; 
+margin-bottom: 0px;
+margin-left: auto; 
+width: 200px;
+}
+.foto {
+	opacity: 0.8;
+	width: 170px;
+	margin-right: auto;
+	margin-left: auto;
+}
+label {
+		font-size: 7px;
+	}
+a {
+		font-size: 5px;
+	}
+.labelredes-size {
+	font-size: 10px;
+	margin-left: 5px;
+}
+.foto-width {
+	opacity: 0.8;
+	width: 120px;
+	height: 140px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	background-attachment: fixed;
+}
+}
+
+/* Lo que antes hacia...
+@media all and (max-width: 1360px) {
+	label {
+		font-size: 25px;
+	}
+}
+@media all and (max-width: 1280px) {
+	label {
+		font-size: 28px;
+	}
+	.labelredes-size {
+		font-size: 45px;
+	}
+}
+@media all and (max-width:  1152px) {
+	body {
+       background-size: 130%;
+	}
+}
+@media all and (max-width: 1024px) {
+	body {
+    background-size: 150%;
+    }
+	label {
+		font-size: 15px;
+	}
+	a {
+		font-size: 15px;
+	}
+	.foto {
+		height: 195px;
+	}
+	.labelredes-size {
+		font-size: 30px;
+	}
+}
+@media all and (max-width: 800px) {
+	label {
+		font-size: 8px;
+	}
+	a {
+		font-size: 8px;
+	}
+	.labelredes-size {
+        font-size: 15px;
+	}
+	.cambia {
+		height: 25px;
+	}
+	.cambia:hover {
+		opacity: 10;
+	}
+	.cambio-twitter:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+   }
+    .cambio-youtube:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+   }
+    .cambio-facebook:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+  }
+}
+@media all and (max-width: 768px) {
+	body {
+		background-size: 300%;
+	}
+	label, a, .labelredes-size {
+		font-size: 17px;
+	}
+    .foto {
+    	height: 350px;
+    }
+}
+@media all and (max-width: 736px) {
+	a {
+		font-size: 15px;
+	}
+	label {
+		font-size: 15px;
+	}
+}
+@media all and (max-width: 667px) {
+	label {
+		font-size: 13px;
+	}
+	a {
+		font-size: 13px;
+	}
+	.foto {
+		height: 85px;
+	}
+}
+@media all and (min-width: 376px) and (max-width: 568px) {
+	body{
+		background-size: 136%;
+	}
+	label {
+		font-size: 10px;
+	}
+	a {
+		font-size: 8px;
+	}
+	.divisor {
+		margin-left: 20%;
+		margin-right: 23%;
+	}
+	.foto {
+		height: 100px;
+	}
+	.cambio-twitter:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+   }
+    .cambio-youtube:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+   }
+    .cambio-facebook:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+  }
+}
+@media all and (max-width: 414px) {
+	body {
+		background-size: 300%;
+	}
+	.divisor {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.foto {
+		height: 175px;
+	}
+}
+@media all and (max-width: 384px) {
+	body {
+		background-size: 350%;
+	}
+}
+@media all and (min-width: 321px) and (max-width: 375px) {
+	body {
+		background-size: 300%;
+	}
+	.foto {
+		height: 150px;
+	}
+    .divisor {
+    	margin-left: 10%;
+    	margin-right: 10%;
+    }
+    label {
+		font-size: 10px;
+	}
+	a {
+		font-size: 8px;
+	}
+}
+@media all and (max-width: 320px) and (orientation: landscape) {
+	body{
+		background-size: 300%;
+	}
+	label {
+		font-size: 7px;
+	}
+	a {
+		font-size: 6px;
+	}
+/* La clase divisor en esta resolucion se aplica segun la pagina */ /*
+	.foto {
+		height: 130px;
+	}
+	.labelredes-size {
+        font-size: 12px;
+	}
+	.cambio-twitter:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+   }
+    .cambio-youtube:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+   }
+    .cambio-facebook:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+  }
+}
+@media all and (max-width: 320px) and (orientation: portrait) {
+	body{
+		background-size: 300%;
+	}
+	label {
+		font-size: 7px;
+	}
+	a {
+		font-size: 7px;
+	}
+/* La clase divisor en esta resolucion se aplica segun la pagina */ /*
+	.foto {
+		height: 130px;
+	}
+	.labelredes-size {
+        font-size: 12px;
+	}
+	.cambio-twitter:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+   }
+    .cambio-youtube:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+   }
+    .cambio-facebook:hover {
+         background-image: url("");
+         background-repeat: no-repeat;
+  }
+}
+@media all and (max-width: 240px) {
+	body {
+		background-size: 320%;
+	}
+	.divisor {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	a {
+		font-size: 5px;
+	}
+}
+*/
