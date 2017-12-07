@@ -1,6 +1,6 @@
 .nombredisco {
 	font-size: 25px;
-	color: #900000;
+	color: #FFB700;
 }
 .divisor02{
 	margin-top: 2%;
@@ -17,10 +17,13 @@
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
+.imgportada-size {
+	width: 350px;
+	height: 350px;
+}
 @media all and (min-width: 1700px) {
 .nombredisco {
 	font-size: 27px;
-	color: #FFB700;
 }
 .divisor02{
 	margin-top: 2%;
@@ -34,12 +37,6 @@
 	font-size: 20px;
 	padding-left: 200px;
 }
-.divisor02 img {
-	margin-top: 5%;
-	margin-bottom: 5%;
-	width: 500px;
-	height: 400px;
-}
 }
 @media all and (max-width: 975px) {
 .nombredisco {
@@ -51,6 +48,9 @@
 }
 .divisor02 {
 	width: 550px;
+}
+.imgportada-size {
+	width: 300px;
 }
 }
 @media all and (max-width: 640px) {
